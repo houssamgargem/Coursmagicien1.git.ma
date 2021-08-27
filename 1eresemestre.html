@@ -1,0 +1,193 @@
+<!--doctype html-->
+
+<html>
+<link rel="stylesheet" href="semest.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="shortcut icon" href="logooo.png">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+<title>Prof magique</title>
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+
+    <title>Personal Web</title>
+
+    <!--style----->
+
+    <style>
+        body {
+
+            font-family: Calibri;
+
+        }.rr{
+            width: 50px;
+            height: 50px;
+
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+
+</body>
+
+</html>
+
+<!--navigation-->
+
+<div id="progressbar"></div>
+<div id="scrollPath"></div>
+<div id="menu-bars"></div>
+<nav>
+
+    <!--logo-->
+
+    <div class="brand">
+        <a href="#hero">
+            <h1> <a href="testttttttttt.html"> <span></span><span style="color: white;"></span>
+                    <h1><span>Cou</span>rs <span>Magi</span>cien</h1>
+        </a>
+    </div>
+
+    <!--menu-btn----------->
+
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+
+    <label class="menu-icon" for="menu-btn">
+
+        <span class="nav-icon"></span>
+
+    </label>
+
+    <!--menu-->
+
+    <ul class="menu">
+
+        <li><a href="#">Home</a></li>
+
+        <li><a href="#ul">Contact</a></li>
+
+        <li><a href="#">Account</a></li>
+
+        <li><a href="#About">About</a></li>
+
+        <li><a href="#">Supdivision Simple</a></li>
+
+        <li><a href="VLSM.html">Supdivision VLSM</a></li>
+
+        <li><a href="gallery22.html">Concours</a></li>
+        <img class="rr" src="logooo.png" alt="" srcset="">
+    </ul>
+
+</nav>
+
+<!--main-content-->
+
+<div class="cursor-1"></div>
+<div class="cursor-2"></div>
+
+<div id="curor"></div>
+<!--arrow-->
+<!--services----------------------->
+<section class="services">
+    <!--heading----------->
+    <div class="services-heading">
+        <h2></h2><br>
+        <h2></h2><br> <br>
+        <h2>System Réseau Informatique.</h2>
+        <br>
+        <br>
+    </div>
+    <!--box-container----------------->
+    <div class="box-container">
+        <!--box-1-------->
+        <div class="box">
+            <a href="semestre1.html" class="er">Semestre 1</a><br>
+            <a href="quizarchitecture.html">Semestre 2</a><br>
+            <a href="semestre3.html">Semestre 3</a><br>
+            <a href="Page1.html">Semestre 4</a><br>
+            <a href="Page1.html">Examen Fin Etude</a><br>
+        </div>
+    </div>
+</section>
+
+<section class="err">
+
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Autres Branches </h4>
+                <ul>
+                    <li><a href="#">Cours Développement Informatique</a></li>
+                    <li><a href="#">Cours De Génie Civil</a></li>
+                    <li><a href="#">Cours De Gestion De Etreprises</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#">VLSM </a></li>
+                    <li><a href="">Subdivision Simple</a></li>
+                    <li><a href="councour.html">Concours</a></li>
+                    <li><a href="#"> </a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Semestres</h4>
+                <ul>
+                    <li><a href="#">semestre 2</a></li>
+                    <li><a href="#">semestre 3</a></li>
+                    <li><a href="#">semestre 4</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a> <br>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <p></p> <br>
+        <p style="text-align: center;">© 2021 PROF MAGIC/istamaroc.ma . TOUS DROITS RÉSERVÉS.</p>
+    </div>
+</footer>
+
+
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script>
+    var cursor = document.getElementById('cursor');
+    document.addEventListener('mousemove', function (e) {
+        var x = e.clientX;
+        var y = e.clientY;
+        cursor.style.left = x + "px";
+        cursor.style.top = y + "px";
+
+
+    });
+
+</script>
+
+<script src="cursor.js"></script>
+<script src="cursd.js"></script>
+<script type="text/javascript">
+    let progress = document.getElementById('progressbar');
+    let totalHeight = document.body.scrollHeight - window.innerHeight;
+    window.onscroll = function () {
+        let progressHeight = (window.pageYOffset / totalHeight) * 100;
+        progress.style.height = progressHeight + "%";
+    }
+</script>
